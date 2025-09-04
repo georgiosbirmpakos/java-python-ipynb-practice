@@ -1,0 +1,93 @@
+# ------------------------------
+# OS / Editors
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+*.iml
+
+# ------------------------------
+# Secrets & Config (as requested)
+# ------------------------------
+.env
+.env.*
+*.env
+*.ini
+*.ini.*
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+dist/
+build/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+site/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+.hypothesis/
+.ipynb_checkpoints/
+.tox/
+.pyre/
+.pytype/
+docs/_build/
+
+# ------------------------------
+# Java / JVM
+# ------------------------------
+# Compiled class & build outputs
+*.class
+target/
+build/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE-specific
+# IntelliJ
+*.ipr
+*.iws
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archives / Artifacts / Logs
+*.log
+*.jar
+*.war
+*.ear
